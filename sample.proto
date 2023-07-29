@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+// Sample Message Type One
+message SampleMessageOne {
+  int32 value = 1;
+}
+
+// Sample Message Type Two
+message SampleMessageTwo {
+  string message = 1;
+}
+
