@@ -20,13 +20,15 @@ This is a simple example demonstrating how to establish communication between a 
 -   Protoc compiler & C library for protobuf generated code
 
     ```sh
-    sudo apt install  protobuf-compiler  libprotobuf-c-dev
+    sudo apt update
+    sudo apt install -y protobuf-compiler protobuf-c-compiler libprotobuf-c-dev
     ```
 
-<!-- -   Python libraries
+-   Python libraries
+
     ```sh
-    pip3 install protobuf
-    ``` -->
+    pip3 install protobuf==3.20
+    ```
 
 ### Usage
 
